@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(189 255 216);
+    background-image: url(LoginBG.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 400px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 250px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    box-shadow: -3px 0 5px #7c7c7c;
+    background-image: linear-gradient(135deg, #aecbac, #8fc17d);
+}
+
+#header .logo .bx{
+    margin-top: 25px;
+    font-size: 40px;
+    color: #3f6c2f;
+}
+
+#header h1 {
+    font-size: 40px;
+    color: #3f6c2f;
+    margin: 15px 0;
+}
+.loginform .containerfeilds .fieldtext {
+    margin: 8px 40px;
+    text-align: left;
+    font-size: 18px;
+    color: #28431e;
+}
+.loginform .containerfeilds input {
+    width: 80%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: 0 2px 5px #3f6c2f;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-indent: 5px;
+    color: #28431e;
+}
+
+.loginform input[type='submit'] {
+    width: 30%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: #3f6c2f;
+    color: #aecbac;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px #3f6c2f;
+}
+
+.loginform input[type='submit']:hover {
+    background-color: #28431e;
+    cursor: pointer;
+}
+
+#footer p{
+    color: #28431e;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: #192b13;
+    font-weight: bold;
+}
+
+#footer p a:hover {
+    text-shadow: 0 0 2px #28431e;
+}
